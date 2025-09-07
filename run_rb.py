@@ -82,3 +82,5 @@ run.rosenbrock.rndCls(loader_train, loader_test, loader_val, config)
 run.rosenbrock.rndThd(loader_train, loader_test, loader_val, config)
 run.rosenbrock.lrnRnd(loader_train, loader_test, loader_val, config)
 run.rosenbrock.rndSte(loader_train, loader_test, loader_val, config)
+# Performance comparison: Direct Gurobi vs ML-guided warm start 
+run.rosenbrock.warmstart(loader_test,config)
